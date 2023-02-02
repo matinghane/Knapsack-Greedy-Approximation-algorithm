@@ -75,6 +75,8 @@ def knapsack(m, Wi, Pi):
 
 # for i in knapsack(m, Wi, Pi):
 #     print( i )
+
+
 import tabulate
 dataset = knapsack(m, Wi, Pi)
 header = dataset[0].keys()
